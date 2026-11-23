@@ -9,7 +9,7 @@ def print_header():
     print("          HOMELAB MONITOR")
     print("=" * 40)
     print()
-
+    print("Lab Monitor")
 
 def print_node_status(node):
     print(f"Proxmox Host: {node['name']}")
